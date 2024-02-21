@@ -11,8 +11,9 @@ Save the mission once you have done all of this.
 ### Step Two: Includes
 1. Download the latest includes, located in this Github repo.
 2. Place ALL files and folders into your mission folder.
-3. Load your mission in the editor once again to ensure that the mission is working.
-4. Export the mission to PBO.
+3. Make relevant changes to the `details.hpp` file. Eg, Mission name, Author etc.
+4. Load your mission in the editor once again to ensure that the mission is working.
+5. Export the mission to PBO.
 
 ### Step Three: Upload and Test
 1. Once you have your PBO, upload the mission file to the mission sync folder in the member file centre channel in TeamSpeak.
