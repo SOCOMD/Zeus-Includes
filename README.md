@@ -9,7 +9,7 @@ Ensure that you download the correct composition for the latest Arsenal boxes as
 Save the mission once you have done all of this.
 
 ### Step Two: Includes
-1. Download the latest includes, located in this Github repo.
+1. Download the latest includes, located in this Github repo. [Link here](https://github.com/SOCOMD/Zeus-Includes/releases/tag/main)
 2. Place ALL files and folders into your mission folder.
 3. Make relevant changes to the `details.hpp` file. Eg, Mission name, Author etc.
 4. Load your mission in the editor once again to ensure that the mission is working.
