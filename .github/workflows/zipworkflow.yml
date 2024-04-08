@@ -15,7 +15,7 @@ jobs:
       uses: ncipollo/release-action@v1.14.0
       with:
         artifacts: "Zeus-Includes.zip"
-        name: Includes
+        tag: main
         generateReleaseNotes: true
         allowUpdates: true
         makeLatest: true
