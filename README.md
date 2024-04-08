@@ -23,5 +23,3 @@ Save the mission once you have done all of this.
 5. Report that you have tested the mission
 
 ### You are now ready for the operation on Friday night.
-
-Testing 123

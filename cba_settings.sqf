@@ -1086,7 +1086,7 @@ kat_misc_tourniquetEffects_NegativeMultiplier = 1;
 kat_misc_tourniquetEffects_PositiveMultiplier = 1;
 force kat_misc_treatmentTimeDetachTourniquet = 2;
 
-// KAT - ADV Medical: Pharmacy Help me
+// KAT - ADV Medical: Pharmacy
 kat_pharma_blockChance = 20;
 force kat_pharma_carbonateChance = 100;
 kat_pharma_chromatic_aberration_checkbox_fentanyl = true;
