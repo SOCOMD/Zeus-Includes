@@ -18,4 +18,5 @@ jobs:
         tag: main
         name: Includes
         generateReleaseNotes: true
+        allowUpodates: true
         token: ${{ secrets.GITHUB_TOKEN }}
