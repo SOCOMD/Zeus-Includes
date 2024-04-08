@@ -12,7 +12,7 @@ jobs:
         filename: 'Zeus-Includes.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: Upload Release
-      uses: ncipollo/release-action@v1.12.0
+      uses: ncipollo/release-action@v1.14.0
       with:
         artifacts: "Zeus-Includes.zip"
         tag: main
