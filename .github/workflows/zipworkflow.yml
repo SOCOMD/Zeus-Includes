@@ -16,7 +16,7 @@ jobs:
       with:
         artifacts: "Zeus-Includes.zip"
         tag: main
+        name: Includes
         generateReleaseNotes: true
         allowUpdates: true
-        makeLatest: true
         token: ${{ secrets.GITHUB_TOKEN }}
