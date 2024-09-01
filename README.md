@@ -5,7 +5,7 @@ This repo houses the up-to-date Zeus includes for SOCOMD and how to create your 
 ## How to make an operation
 ### Step one: Create your mission
 Make your mission in game. Set up your objectives, place the friendly units and enemy.
-Ensure that you download the correct composition [HERE](https://steamcommunity.com/sharedfiles/filedetails/?id=3187822630) & [LHD Composition](https://steamcommunity.com/sharedfiles/filedetails/?id=3187823059) for the latest Arsenal boxes as well.
+Ensure that you download the correct composition [HERE](https://steamcommunity.com/sharedfiles/filedetails/?id=3322368197) & [LHD Composition](https://steamcommunity.com/sharedfiles/filedetails/?id=3187823059) for the latest Arsenal boxes as well.
 Save the mission once you have done all of this.
 
 ### Step Two: Includes
