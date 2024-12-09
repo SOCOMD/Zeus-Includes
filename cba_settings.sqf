@@ -63,7 +63,7 @@ ace_casings_maxCasings = 100;
 force ace_common_allowFadeMusic = true;
 force ace_common_checkPBOsAction = 2;
 force ace_common_checkPBOsCheckAll = true;
-force ace_common_checkPBOsWhitelist = "['Ca','Vile_HUD','Blastcore_MainCore','Blastcore_VEP','blast_refract','fxp_adat','fxp_VehExpEffect','fxp_VehExpEffectBig','fxp_VehHeli','fxp_VehPlane',WarFXPE_Weps','fxp_VehTank','WarFXPE','A3TI','HeadRangePlus','GF_ReColor','dwyl_main','UAV_Turret_Markers','ZEI','3denEnhanced','bettinv_main','bettinv_main_ace','ReducedHazeMod','L_Immerse_Immerse_main','L_Immerse_Immerse_sys','ocap','OCAP_main','OCAP_extension','OCAP_recorder']";
+force ace_common_checkPBOsWhitelist = "['Ca','Vile_HUD','Blastcore_MainCore','Blastcore_VEP','blast_refract','fxp_adat','fxp_VehExpEffect','fxp_VehExpEffectBig','fxp_VehHeli','fxp_VehPlane',WarFXPE_Weps','fxp_VehTank','WarFXPE','A3TI','HeadRangePlus','GF_ReColor','dwyl_main','UAV_Turret_Markers','ZEI','3denEnhanced','bettinv_main','bettinv_main_ace','ReducedHazeMod','L_Immerse_Immerse_main','L_Immerse_Immerse_sys','ocap','OCAP_main','OCAP_extension','OCAP_recorder','TNT_Switchable_Body_Camera']";
 force ace_common_deployedSwayFactor = 0.05;
 force ace_common_enableSway = true;
 force ace_common_restedSwayFactor = 0.15;
@@ -322,11 +322,11 @@ ace_nametags_showPlayerNames = 3;
 ace_nametags_showSoundWaves = 0;
 
 // ACE Nightvision
-force ace_nightvision_aimDownSightsBlur = 0.4;
+force ace_nightvision_aimDownSightsBlur = 0.3;
 force ace_nightvision_disableNVGsWithSights = false;
-force ace_nightvision_effectScaling = 0.6;
-force ace_nightvision_fogScaling = 1;
-force ace_nightvision_noiseScaling = 0.75;
+force ace_nightvision_effectScaling = 0.2;
+force ace_nightvision_fogScaling = 0.6;
+force ace_nightvision_noiseScaling = 0.3;
 
 // ACE Overheating
 force ace_overheating_cookoffCoef = 1;
@@ -393,7 +393,7 @@ force ace_repair_wheelChangeTime = 10;
 force ace_repair_wheelRepairRequiredItems = ["ace_repair_anyToolKit"];
 
 // ACE Respawn
-force ace_respawn_removeDeadBodiesDisconnected = true;
+force ace_respawn_removeDeadBodiesDisconnected = false;
 force ace_respawn_savePreDeathGear = false;
 
 // ACE Scopes
