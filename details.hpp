@@ -2,7 +2,7 @@
 // Edit these lines as needed
 
 // Author
-author = "SOCOMD Zeus Team";
+author = "CHANGE THIS IN DETAILS.HPP";
 
 class Header {
 
@@ -19,6 +19,6 @@ overviewPicture = "images\SOCOMD_Logo_transparent.paa";    //Take a picture of y
 overviewText = "";
 
 // Information when loading into mission
-OnLoadName = "SOCOMD Mission";
-OnLoadMission = "Dynamic Missions - Every deployment is unique.";
+OnLoadName = "CHANGE THIS IN DETAILS.HPP";
+OnLoadMission = "CHANGE THIS IN DETAILS.HPP";
 loadScreen = "images\SOCOMD_Logo_transparent.paa";    //Repeat earlier steps.
