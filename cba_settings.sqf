@@ -198,7 +198,7 @@ force force ace_medical_statemachine_AIUnconsciousness = true;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 120;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
-force force ace_medical_statemachine_fatalInjuriesPlayer = 0;
+force force ace_medical_statemachine_fatalInjuriesPlayer = 1;
 force force ace_medical_useLimbDamage = 0;
 force force ace_medical_vitals_simulateSpO2 = true;
 
@@ -876,3 +876,16 @@ force force zen_common_autoAddObjects = true;
 force force zen_common_cameraBird = false;
 force force zen_common_disableGearAnim = true;
 force force zen_editor_parachuteSounds = false;
+
+// Zeus Framerate Monitor
+zfm_setting_font = "RobotoCondensed";
+zfm_setting_low_fps_limit = 20;
+zfm_setting_low_text_colour = [1,0,0,0.5];
+zfm_setting_low_text_outline = 0;
+zfm_setting_low_text_size = 0.04;
+zfm_setting_regular_text_colour = [1,1,1,0.75];
+zfm_setting_regular_text_outline = 0;
+zfm_setting_regular_text_size = 0.03;
+zfm_setting_toggle = true;
+zfm_setting_viewdistance_max = 500;
+zfm_setting_viewdistance_min = 0;
