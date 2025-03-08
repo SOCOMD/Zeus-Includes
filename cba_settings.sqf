@@ -266,10 +266,10 @@ force force ace_nametags_showVehicleCrewInfo = false;
 
 // ACE Nightvision
 force force ace_nightvision_aimDownSightsBlur = 0.3;
-force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0.2;
-force force ace_nightvision_fogScaling = 0.6;
-force force ace_nightvision_noiseScaling = 0.3;
+force force ace_nightvision_disableNVGsWithSights = true;
+force force ace_nightvision_effectScaling = 0.3;
+force force ace_nightvision_fogScaling = 0.1;
+force force ace_nightvision_noiseScaling = 0.2;
 
 // ACE Overheating
 force force ace_overheating_cookoffCoef = 1;
@@ -394,6 +394,13 @@ force force ace_viewdistance_enabled = true;
 // ACE View Restriction
 force force acex_viewrestriction_mode = 0;
 
+// ACE Volume
+force force acex_volume_enabled = true;
+force force acex_volume_lowerInVehicles = true;
+acex_volume_reduction = 3;
+force force acex_volume_remindIfLowered = false;
+force force acex_volume_showNotification = false;
+
 // ACE Weapons
 force force ace_reload_displayText = false;
 force force ace_weaponselect_displayText = false;
@@ -438,6 +445,11 @@ force force acre_sys_zeus_zeusDefaultVoiceSource = true;
 // Backpack On Chest
 force force bocr_main_disabled = false;
 force force bocr_main_walk = false;
+
+// ClearTree
+force force ClearTree_actionTime = 60;
+force force ClearTree_radius = 10;
+force force ClearTree_requireAxe = true;
 
 // Community Base Addons
 force force cba_disposable_dropUsedLauncher = 2;
