@@ -133,6 +133,8 @@ force force ace_hearing_unconsciousnessVolume = 0.2;
 force force ace_interaction_disableNegativeRating = false;
 force force ace_interaction_interactWithEnemyCrew = 0;
 force force ace_interaction_interactWithTerrainObjects = false;
+force force ace_interaction_enableGroupRenaming = false;
+
 
 // ACE Logistics
 force force ace_cargo_enable = true;
@@ -174,7 +176,7 @@ force force ace_map_gestures_enabled = true;
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_ai_requireItems = 0;
 force force ace_medical_AIDamageThreshold = 0.86088;
-force force ace_medical_bleedingCoefficient = 1;
+force force ace_medical_bleedingCoefficient = 0.5;
 force force ace_medical_blood_bloodLifetime = 500;
 force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 200;
@@ -182,7 +184,7 @@ force force ace_medical_deathChance = 0.45;
 force force ace_medical_dropWeaponUnconsciousChance = 0;
 force force ace_medical_enableVehicleCrashes = true;
 force force ace_medical_engine_damagePassThroughEffect = 1;
-force force ace_medical_fatalDamageSource = 1;
+force force ace_medical_fatalDamageSource = 2;
 force force ace_medical_fractureChance = 0.6;
 force force ace_medical_fractures = 1;
 force force ace_medical_ivFlowRate = 2.20601;
@@ -194,11 +196,11 @@ force force ace_medical_painUnconsciousThreshold = 0.5;
 force force ace_medical_playerDamageThreshold = 4.5;
 force force ace_medical_spontaneousWakeUpChance = 0.7;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 20;
-force force ace_medical_statemachine_AIUnconsciousness = true;
+force force ace_medical_statemachine_AIUnconsciousness = false;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
-force force ace_medical_statemachine_cardiacArrestTime = 180;
+force force ace_medical_statemachine_cardiacArrestTime = 210;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
-force force ace_medical_statemachine_fatalInjuriesPlayer = 1;
+force force ace_medical_statemachine_fatalInjuriesPlayer = 0;
 force force ace_medical_useLimbDamage = 0;
 force force ace_medical_vitals_simulateSpO2 = true;
 
@@ -335,7 +337,7 @@ force force ace_repair_wheelChangeTime = 10;
 force force ace_repair_wheelRepairRequiredItems = ["ace_repair_anyToolKit"];
 
 // ACE Respawn
-force force ace_respawn_removeDeadBodiesDisconnected = false;
+force force ace_respawn_removeDeadBodiesDisconnected = true;
 force force ace_respawn_savePreDeathGear = false;
 
 // ACE Scopes
@@ -658,15 +660,15 @@ force force kat_circulation_CPR_OxygenationPeriod = 15;
 force force kat_circulation_Defibrillator_DistanceLimit = 6;
 force force kat_circulation_DefibrillatorPads_AttachTime = 6;
 force force kat_circulation_DefibrillatorPads_DetachTime = 3;
-force force kat_circulation_deterioratingTamponade_chance = 35;
-force force kat_circulation_deterioratingTamponade_interval = 60;
+force force kat_circulation_deterioratingTamponade_chance = 0;
+force force kat_circulation_deterioratingTamponade_interval = 0;
 force force kat_circulation_enable = false;
 force force kat_circulation_enable_CPR_Chances = true;
 force force kat_circulation_enable_selfBloodDraw = 1;
 force force kat_circulation_medLvl_AED = 0;
 force force kat_circulation_medLvl_AED_Station_Interact = 0;
 force force kat_circulation_medLvl_AED_X = 1;
-force force kat_circulation_tamponadeChance = 10;
+force force kat_circulation_tamponadeChance = 0;
 force force kat_circulation_useLocation_AED = 0;
 
 // KAT - ADV Medical: GUI
@@ -888,16 +890,3 @@ force force zen_common_autoAddObjects = true;
 force force zen_common_cameraBird = false;
 force force zen_common_disableGearAnim = true;
 force force zen_editor_parachuteSounds = false;
-
-// Zeus Framerate Monitor
-zfm_setting_font = "RobotoCondensed";
-zfm_setting_low_fps_limit = 20;
-zfm_setting_low_text_colour = [1,0,0,0.5];
-zfm_setting_low_text_outline = 0;
-zfm_setting_low_text_size = 0.04;
-zfm_setting_regular_text_colour = [1,1,1,0.75];
-zfm_setting_regular_text_outline = 0;
-zfm_setting_regular_text_size = 0.03;
-zfm_setting_toggle = true;
-zfm_setting_viewdistance_max = 500;
-zfm_setting_viewdistance_min = 0;
