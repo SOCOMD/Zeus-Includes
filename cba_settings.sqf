@@ -337,7 +337,7 @@ force force ace_repair_wheelChangeTime = 10;
 force force ace_repair_wheelRepairRequiredItems = ["ace_repair_anyToolKit"];
 
 // ACE Respawn
-force force ace_respawn_removeDeadBodiesDisconnected = true;
+force force ace_respawn_removeDeadBodiesDisconnected = false;
 force force ace_respawn_savePreDeathGear = false;
 
 // ACE Scopes
