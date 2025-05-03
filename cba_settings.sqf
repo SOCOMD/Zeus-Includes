@@ -198,7 +198,7 @@ force force ace_medical_spontaneousWakeUpChance = 0.1;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 20;
 force force ace_medical_statemachine_AIUnconsciousness = true;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
-force force ace_medical_statemachine_cardiacArrestTime = 180;
+force force ace_medical_statemachine_cardiacArrestTime = 240;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 1;
 force force ace_medical_useLimbDamage = 0;
@@ -491,6 +491,10 @@ force force emr_main_maxWeightJump = 100;
 force force emr_main_minClimbTerrain = 0.3;
 force force emr_main_staminaCoefficient = 1;
 force force emr_main_yeetCoefficient = 1.4;
+
+// GRAD slingHelmet
+force force GRAD_slingHelmet_additionalList = "";
+force force GRAD_slingHelmet_allowAll = true;
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
