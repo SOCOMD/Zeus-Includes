@@ -709,6 +709,9 @@ force force kat_misc_tourniquetEffects_NegativeMultiplier = 1;
 force force kat_misc_tourniquetEffects_PositiveMultiplier = 1;
 force force kat_misc_treatmentTimeDetachTourniquet = 2;
 
+// KAT - ADV Medical: Ophthalmology
+force force kat_ophthalmology_enable = false;
+
 // KAT - ADV Medical: Pharmacy
 force force kat_pharma_allowStackScript_EACA = true;
 force force kat_pharma_allowStackScript_TXA = true;
