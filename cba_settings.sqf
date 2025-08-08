@@ -18,11 +18,16 @@ force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force force ace_advanced_ballistics_simulationInterval = 0.05;
 
 // ACE Advanced Fatigue
-force force ace_advanced_fatigue_enabled = true;
-force force ace_advanced_fatigue_loadFactor = 0.136305;
-force force ace_advanced_fatigue_performanceFactor = 5;
-force force ace_advanced_fatigue_recoveryFactor = 5;
+force force ace_advanced_fatigue_enabled = false;
+force force ace_advanced_fatigue_loadFactor = 0.2;
+force force ace_advanced_fatigue_performanceFactor = 2;
+force force ace_advanced_fatigue_recoveryFactor = 2;
 force force ace_advanced_fatigue_terrainGradientFactor = 1;
+
+// ACE Advanced Missile Guidance
+force force ace_missileguidance_chaffEffectivenessCoef = 1.25;
+force force ace_missileguidance_flareAngleCoef = 1.25;
+force force ace_missileguidance_flareEffectivenessCoef = 1.25;
 
 // ACE Advanced Throwing
 force force ace_advanced_throwing_enabled = true;
@@ -874,6 +879,11 @@ force force stx_civilians_autoStart = false;
 force force stx_civilians_autoStartAircraft = false;
 force force stx_civilians_cachingEnabled = true;
 force force stx_civilians_goAwayAction = true;
+
+// TSP Animate
+force force tsp_cba_animate_carry = 1;
+force force tsp_cba_animate_ladder = false;
+force force tsp_cba_animate_throw = false;
 
 // TSP Breach
 force force tsp_cba_breach_ammo = "[""B_12Gauge_Slug_NoCartridge"",""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot"",""121_2Rnd_Slug""]";
