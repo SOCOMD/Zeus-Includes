@@ -135,7 +135,7 @@ force force ace_hearing_explosionDeafnessCoefficient = 1;
 force force ace_hearing_unconsciousnessVolume = 0.2;
 
 // ACE Interaction
-force force ace_interaction_disableNegativeRating = false;
+force force ace_interaction_disableNegativeRating = true;
 force force ace_interaction_interactWithEnemyCrew = 0;
 force force ace_interaction_interactWithTerrainObjects = false;
 force force ace_interaction_enableGroupRenaming = false;
